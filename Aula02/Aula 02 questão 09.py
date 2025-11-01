@@ -1,0 +1,5 @@
+numero = input("Coloque um numero: ")
+print(type(int(numero)))
+print(type(float(numero)))
+print(type(str(numero)))
+print(type(bool(numero)))

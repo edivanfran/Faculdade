@@ -1,0 +1,81 @@
+O que são Strings?
+String é uma sequência de caracteres, usada para representar texto em Python.
+Pode ser compreendidas entre aspas duplas(") ou aspas simples('), ou aspas triplas (""",""") para texto com múltiplas linhas.
+codificação em 16 bits, não entra alguns acentos e ç. Cada letra pode ser representada em número a é 1.
+
+• Dado que string são sequências de caracter
+Espaço em branco também retorna e é um espaço. \n é o código do Enter, ele pula o enter. Ele retornando no print ele pula duas linhas, \n é interpretado como um só caractere. \t é um Tab. Se você colocar dois vai retorna um espaço maior.
+Se você pedir para retorna ou acessar uma posição do string que não existe ele não dá, Erro.
+• Dá para fazer Slice
+Ele funciona igual lista. Tem como usar - num e num em um só slice. Tipo, [-17:25].
+• O operador + utilizado em strings representa a concatenação(junção)
+nome = "Ana"
+sobrenome = "Silva
+print(nome + " " + sobrenome) # Ana Silva
+• Assim como em lista, tem multiplicação
+print("Python! " * 3) # Python! Python! Python! 
+
+Comparação de string
+valor_1 = "Ednaldo"
+valor_2 = "ednaldo"
+print(valor_1 == valor_2)
+# False
+valor_2 = "Ednaldo"
+print(valor ==
+
+print(valor_1 is valor_2) is é aquele que verifica se ele está apontando para a mesma área na memória. Quando aquele valor é igual ele aponta para o mesmo lugar na memória para econimizar. Ele faz a comparação de ID. 
+print(id(valor_1))
+124470807453712
+
+valor_1 = "abc"
+valor_2 = "def"
+print(valor_1 > valor_2)
+False #Ele verifica a ordem alfabetica.
+
+O a vale mais que 1. 0123456789abc
+
+texto = " Aprender Python "
+print(texto.lower()) # letras para minúsculo -> "  aprender python  "
+print(texto.upper()) # letras para maiúsculo -> "  APRENDER PYTHON  "
+print(texto.strip()) # remove espaços das extremidas -> "Aprender Python"
+Se o cara já usa string, você pode usar método na string direto. No input e no print use .strip().
+print(texto.replace("Python", "Programação")) Ele vai substituir. Replace substitui tudo.
+
+print(texto.find()) # Busca o índice do primeiro da palavra.
+texto = "Curso de Python"
+print(texto.stratswith("Curso")) # True
+print(texto.stratswith("Curs")) # True
+print(texto.stratswith("Curso ")) # True
+print(texto.stratswith("curso")) # False
+print(texto.stratswith("Curso de")) # True
+print(texto.stratswith("Curso  de")) # False
+
+prin(texto.endwith("Python") # True
+print(texto.endwith("Thon")) # False
+
+print(texto.title()) Ele pega a letra primeira de todo nome ou texto coloca em maiúscula e o resto minúscula.
+
+print(texto.replace("Python", "Programação") # Ele pega todo.
+
+O split ele separa a string em lista, por um parâmetro.
+texto = "Aprender,Python,é,Divertido"
+texto.split(",")
+['Aprender','Python','é','Divertido']
+print(texto)
+Ele não muda o texto, ele só fica 
+texto = texto.split(",") # Já é mudado
+
+O join pela os elementos da lista e vai juntar, com alguma coisa que eu digitar.
+print(palavras)
+['Aprender', 'Python', 'é', 'Divertido']
+"/".join(palavras)
+'Aprender/Python/é/Divertido'
+Tudo que você colocar aí dentro vai ser colocado entre as elementos.
+
+print(f"Nome: {nome}")
+
+
+
+
+
+

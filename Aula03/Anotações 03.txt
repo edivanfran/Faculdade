@@ -1,0 +1,153 @@
+x = input("Digite:")
+int(x)
+print(type(x))
+
+x ainda é string
+
+x =input("Digite:")
+y = int(x)
+print(type(x))
+
+x ainda é string
+
+x =input("Digite: ")
+x = int(x)
+print(type(x))
+x agora é int.
+
+
+## Expressões Aritméticas
+As expressões aritméticas são usadas para realizar operações matemáticas.
+Adição (+)
+
+Ele vai resolver primeiro o lado direito e depois vai ser levar pro lado esquerda, no caso resultado.
+
+resultado= 5 + 3
+print(resultado) 
+saída: 8
+
+resultado = 10 - 4
+print(resultado)
+saída: 6
+
+resultado = 
+
+resultado = 10 /2
+
+# com uma barra simples, ele vai entregar vai ser float, já com duas barras vai ser int. ENTÃO VAI SAIR 5.0 mesmo se for colocado dois float vai sair um inteiro.
+
+Modúlo (RESTO)
+resultado = 15 % 2
+print(resultado) Saída: 1
+
+Se o resto da divisão por 2 for 0, ele vai ser par, se não for 0 é impar. 
+
+Expoente (potencia)
+resultado = 5 ** 2
+print(resultado) Saída: 25
+
+Expressões Aritméticas
+a = 10
+b = 5
+
+Operação aritmética usando variáveis
+resultado = a - b
+Vai resolver o lado direito e vai ser colocado na variável
+o a vai ser criado um lugar na memória, atribuindo o valor 10 para a.
+o b vai ser criado um outro lugar na memória, atribuindo o valor 5 para b.
+Ednaldo ama uma pergunta.
+ 
+
+print(resultado) Saída = 5
+
+Concatena é soma de string.
+Certifique-se de que as variáveis envolvidas em operações aritméticas armazenam valores numéricos (inteiros ou ponto flutuante). Caso contrário, você pode encontrar erros ou comportamentos inesperados.
+
+a = 10
+b = "5"
+
+resultado = a + b Vai dá TypeError
+
+As variáveis podem ser atualizadas ao longo do programa, e as operações aritméticas sempre usarão o valor atual.
+
+contador = 0
+
+contador = contador + 1
+print(contador) Saída: 1
+Vai resolver primeiro o lado direito 
+Ele vai sempre atualizando, ele vai apagar o valor anterior e colocar o novo
+contador = contador + 1
+print(contador) Saída: 2
+
+contador = contador + 1
+= é a mesma coisa 
+contador += 1
+
+Não tem como dividir por 0.
+Precedência de Operadores
+A ordem de precedência dos operadores em Python segue as regras matemáticas padrão vindo da esquerda para a direita:
+- Parênteses ()
+- Exponenciação **
+- Multiplicação(*), Divisão(/), Divisão (//), Módulo (%)
+- Adição (+), Subtração (-)
+
+a = 1+2-1+10
+Todos tem a mesma precedência então vai resolver da esquerda pra direita
+a = 12
+
+a = 12
+b = 10
+
+resultado = resultado + (a+b)
+Vai dá erro.
+
+Expressões Booleanas
+Expressões booleanas são usadas para avaliar condições e retornar True(verdadeiro) ou False (falso).
+São essenciais
+Operadores de Comparação:
+- Igual a (==)
+- Diferente de (!=)
+- Maior que (>)
+- Menor que (<)
+- Maior ou igual a (>=)
+- Menor ou igual a (<=)
+"10" == "10" True
+"Eddy" == "eddy" False
+10 >= 10 True 
+3 > 10 F
+5 > 5 F
+10 < 20 T
+"3" > "25"
+
+
+
+"3" > "25" Ele vai comparar o primeiro caracterer e se for igual os primeiros ele vai seguindo até achar um diferente e na 
+
+
+Operadores Lógicos
+Operadores lógicos podem ser 
+
+Exemplos:
+Se chover e (and) eu estiver com um guarda chuva, eu saio de casa.
+
+Tem que acontecer as duas coisas ao mesmo tempo.
+Vamos exercitar o que acontece de acordo com 
+
+Se chover ou (or) eu 
+
+Tabela Verdade
+Só é True no and se os dois for True. No and se tiver um False é tudo False.
+
+No or se um dos dois for True então é True
+
+Not inverte
+not True = False
+not False = True
+
+Combinando Operadores Lógicos e Aritméticos
+Podemos combinar expressões aritméticas e booleanas para criar condições mais complexas.
+
+idade = 20
+altura = 1.75
+
+resultado = (idade >= 18)

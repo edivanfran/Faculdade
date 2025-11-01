@@ -1,0 +1,12 @@
+
+try:
+    arquivo = open("manipulacao_de_arquivos.txt", "r", encoding="UTF-8")
+    while True:
+        linha = arquivo.readline()
+        if not linha:
+            break
+        print(linha)
+except FileNotFoundError:
+    print("Arquivo não encontrado")
+finally:
+    arquivo.close()

@@ -1,0 +1,72 @@
+x = "10"
+y = int(x)
+
+não vai mudar o valor de x, ele vai ser apenas atribuído.
+
+x = int(x)
+
+Agora ele vai ser mudado para 
+
+
+Aritmético retorna um número
+
+Em Booleano retorna em True 
+num = int(input("Digite um número: "))
+if ((num % 2) != 0) :
+    print("É impar!")
+elif ((num % 2) == 0) :
+    print("É par!")
+
+// para descobrir a dezena
+
+% 10 para saber a unidade
+média = 9
+conceito = 10
+if 9.0 < média < 10.0:
+    conceito = "A"
+elif 7.5 < média < 9.0:
+    conceito = "B"
+elif 6.0 < média < 7.5:
+    conceito = "C"   
+elif 4.0 < média < 6.0:
+    conceito = "D"
+elif  4.0 > média > 0.0:
+    conceito = "E"
+else:
+    print("Valor inválido")
+
+if conceito == "A", "B", "C":
+    print("APROVADO")
+elif conceito == "D", "E" :
+    print("REPROVADO")
+
+print(f"Notas: {nota1, nota2}, Média: {média}")
+
+if 9.0 <= média <= 10.0:
+    print("Conceito = A")
+    print("APROVADO")
+elif 7.5 <= média <= 9.0:
+    print("Conceito = B")
+    print("APROVADO")
+elif 6.0 <= média <= 7.5:
+    print("Conceito = C")   
+    print("APROVADO")
+elif 4.0 <= média <= 6.0:
+    print("Conceito = D")
+    print("REPROVADO")
+elif  4.0 >= média >= 0.0:
+    print("Conceito = E")
+    print("REPROVADO")
+else:
+    print("Valor inválido")
+
+Exercício 4
+if numero1 > numero2 > numero3 :
+    print("O número 1 é o maior deles.")
+elif numero2 > numero3 :
+    print("O segundo é o maior deles")
+elif numero3 > numero2 :
+    print("O terceiro é o maior deles")
+else:
+    print("Existem números iguais")
+

@@ -1,0 +1,29 @@
+O que são módulos?
+
+Arquivos Python (.py) que contêm funções e variáveis reutilizáveis.
+Permitem modularizar código para melhor organização.
+Para utilizar um módulo em Python , você precisa importá-lo.
+
+A gente transformar grande arquivos em arquivos menores.
+
+Modulo principal é o que a gente executa. o Main 1 é o principal e os outros são secundário e o Main 2 quando executa ele é o principal e os outros são secundários.
+
+Quando você puxa o from e tiver um print, ele vai ser executado junto.
+Não precis
+
+De um módulo você pode importar qualquer coisa, variável, constante, funções, classes.
+
+Pode botar um nome ao módulo com as.
+
+Class.
+
+print(___name___) Ele mostra o nome do módulo, como ele é o módulo matemática, ele mostra matématica. Você também pode fazer ele exibir alguma mensagem se ele for main ele executa.
+
+O que é Pacote
+É um módulo dentro da pasta. 
+Ele vai a partir da Raiz da pasta. O Visual Studio sabe. Se for pelo terminal é só pelo caminho use PYTHONPATH para definir qual é a raiz. Para voltar uma pasta é só usar .. para voltar uma pasta e QUANDO for importa use o from.
+
+quando você fizer ___init___ ele vai ser sempre executado na primeira vez que ele for importado. TEM QUE SER init. 
+
+
+

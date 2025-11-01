@@ -1,0 +1,17 @@
+estudante = "não"
+estudante
+
+x = input("Digite:")
+x = int(x)
+ou
+x = int(input("Digite: "))
+
+Assim ele vai pegar o string, transforma em inteiro.
+x = 2
+y = 3
+tempx = x
+x = y
+y = tempx
+
+print(x, y)
+No python  a,b = b,a

@@ -1,0 +1,20 @@
+Manipulacao de arquivos:
+Arquivo binário é um arquivo compilado para o computador entender.
+
+Permite armazenar, recuperar e processar informações de maneira persistente.
+
+Python oferece diversas.
+
+Modo
+"r" Modo de leitura(padrão)
+"w" Modo de escrita. Ele vai sobrescrever, caso não exista ele cria.
+"a" Modo de adição. Escreve no final do arquivo sem apagá-lo.
+"x" Cria um arquivo novo. Retorna erro se já existir.
+"b" Modo binário (ex.: Imagens, vídeos, PDFs)
+"t" Modo texto
+"r+" Leitura e escrita.
+"w+" Leitura e escrita. Sobrescreve se já existir, se não existir faz um novo.
+
+
+
+

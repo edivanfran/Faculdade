@@ -1,0 +1,100 @@
+Dicionário:
+- Dicionários são estruturas de dados em python tratadas como coleções chave e valor;
+- Eles são usados para armazenar
+
+Eles se dão definido por aluno = {"nome": "Richardson", "idade": 24}
+print(aluno)
+# {"nome": "Richardson", "idade":24}
+
+aluno = {"nome": "Maria", "idade": 24, "curso": "Análise e Desenvolvimento de Sistemas"}
+print(aluno["nome"]) 
+# Maria
+print(aluno["idade"])
+# 24
+
+aluno["nome"] = "Nycholas Richardson"
+{"nome": "Nycholas Richardson", "idade": 24, "curso': "Análise e Desenvolvimento de Sistemas"]
+aluno["2000"] =  "Doi mil" # É adicionado se não tiver.
+aluno[2000] = "Dois mil" # É trocado
+
+meu_dicionário = {"nome": "Alice", "idade": 25}
+meu_dicionário = {"idade": 26, "cidade": "São Paulo"} # Ele adiciona essa chave e valor, cidade e vai mudar.
+print(meu_dicionario) 
+# {"nome": "Alice", "idade": 26, "cidade": "São Paulo"}
+
+ano_nascimento = 2000
+aluno = {"nome": "Richardson", "idade": 24, "ano_nascimento": ano_nascimento}
+print(aluno) # "nome": "Richardson", "idade": 24, "ano_nascimento": 2000  
+Parametro variável não aceita paramentro.
+
+print(aluno["cidade"])
+SE PUXAR UM VALOR OU CHAVE QUE NÃO EXISTE DÁ ERRO. Ele vai dizer que você está procurando algo que não existe.
+
+Agora pra quando você quer procurar e se não tiver ele não dá mais erro com, aluno.get("cidade") # Dessa forma sem o segundo parâmetro dá None.
+print(aluno.get("cidade", "Não informada")) # Dessa forma se não tiver ele retorna o segundo parâmetro.
+
+# Método Pop
+aluno = {"nome": "Maria", "idade": 24, "curso": "Análise e Desenvolvimento de Sistemas", "cidade": "Santa Rita"}
+Tem método pop remove e retorna o elemento correspondente a chave.
+print(aluno.pop("nome")) # Maria
+print(aluno) # "idade": 24, "cidade": "Santa Rita"
+print(del aluno["idade"])) # Ele não retorna nada
+
+ultimo_item = meu dicionário.popitem()
+print(ultimo_item) # Ele retira o último, Sai uma tupla
+# output: ("cidade", "Rio de Janeiro")
+
+método clear(), ele limpa todos os valores do dicionário.
+aluno.clear()
+print(aluno)
+# {}
+if aluno == False:
+	print("Este é o dicionário aluno)
+# Não executa porque é um dicionário vazio.
+
+if bool(aluno) == False:
+	print("Este é o dicionário aluno)
+# Ele executa.
+None ele não aponta pra lugar nenhum na memória. E dicionário vazio é um lugar na memória é um lugar vazio.
+
+if not aluno:
+	print("Dicionário está vazia.)
+# Assim ele vai
+
+aluno = {"nome": "João", "idade": 26, "curso": "Matemática"}
+
+print(aluno.keys()) # Retorna só chaves, ["nome", "idade", "curso"]
+
+print(aluno.values()) # Retorna valores, ["João", 26, "Matemática"]
+
+print(aluno.items()) # Retorna os itens [(nome, "João"), (idade, 26), (curso, "Matemática")]
+
+NÃO É POSSÍVEL ACESSAR ASSIM.
+chaves = aluno.keys() #type dict_keys, pode imprimir com um for. 
+# Não é possível fazer isso encima.
+chaves[0] Não imprimi.
+print(chaves[0]) # Não imprimi.
+
+Pode fazer o in para achar SÓ a chave tá lá.
+if "nome" in aluno:
+	print("Chave 'nome' existe")
+
+# Chave nome existe
+print("idade" in aluno) # True
+print("cidade" in aluno) # False
+
+lista2 = lista.copy
+del lista2["nome"]
+print(lista2)
+print("ano nascimento" in aluno and "nome" in aluno)
+# True
+
+aluno = {"nome": "João", "idade": 26, "curso":"Matemática"}
+
+for chave in aluno:
+	print(chave)
+for valor in aluno.values():
+	print(valor)
+for chave, valor in aluno.items():
+	print(f"A chave é {chave} e o valor é {valor}
+

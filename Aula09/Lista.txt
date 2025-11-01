@@ -1,0 +1,118 @@
+Anotações:
+
+Listas:
+- Tipos
+- Valores
+- Colocar [] ou ()
+
+Array:
+- Tem que ser um tipo só para a lista.
+
+Como declara?
+- Usa uma variável, o primeiro elemento começa com (0)
+minha_outra_lista = [1, "python", True, None]
+Você pode acessar os elementos da lista, com o uso de:
+minha_outra_lista[0] vai buscar o primeiro valor.
+
+Na memória em vez de ele criar só um lugar na memória, ele vai criar uma área de memória com vários tempos.
+Depois se colocar para ele pegar um valor que não tá na lista ele vai dá erro por não existe esse espaço na área da me
+Ele diz que o valor da lista tá fora do limite. Lista com [-1], ele vai começar a conta de trás pra frente.
+Ele também pode pegar o valor dentro de uma variável, ele VAI COPIAR, o valor da variável não vai ser atualizado depois..
+Imprimir e acessar(Puxar o item de uma lista).
+
+teste = [0, 1, 2, 3, 4, 5, 6] 
+teste += [input("Digite um valor pra ser adicionado")],  #7
+print(teste) # [0, 1, 2, 3, 4, 5, 6, 7]
+
+Listas são mutáveis, possuem valores separados por vírgulas.
+var = "lista"
+listinha = ["Ok", "Len", var, "elementos"]
+var = "listado"
+print(listinha) #"Ok", "Len", var, "elementos"
+
+pode definir uma lista dentro de uma lista.
+
+None = Vazio
+
+teste[0] = [100, "20"]
+teste[0] = [1, 2, 3]
+teste[[1,2,3], "20"]
+x = teste[0]
+x[0] = 25
+teste
+# [[25,2,3, "20"]
+print(teste[0][2])
+3
+print(x)
+
+O [-1] ou [-2], ele para você pega os últimos e depois você não sabe o tanto de números de uma lista.
+lista para converter para Booleano, se ela foi 0 ou vazia ela é False, se ela for com qualquer coisa ela é True.
+
+coisas_favoritas = ["crepe"]
+professor_Ednaldo = coisas_favoritas
+print(professor_Ednaldo) # ["crepe"]
+adicionar:
+lista.append (o valor a ser inserido no final da lista ou insert onde o elemente irá ser inserido.
+
+.append é um método de uma lista. Pode adicionar mais de um valor de uma vez.
+
+print
+Quando o índice não existe pra cima, ele vai jogar lá no final. Quando ele for colocar em uma lista que 
+pode ser uma variável.
+
+Remoção de Elementos:
+Ele remove no índice. 
+pop o índice a ser removido ou não informando nada e tendo o último removido.
+Ele não faz só remover, ele vai tirar e também imprimir ou ser atribuído a uma variável.
+pop com índice inválido não vai.
+lista = [444, 123, 234]
+y = lista.pop(1)
+print(y) # 123
+y = lista.pop(-1)
+print(y) # 234
+
+remove você não consegue armazenar o valor que você tira. Você passa o valor que eu quero apagar. Ele não retorna nada.
+lista = [444, 123]
+lista.remove(123)
+lista # 444
+x = lista.remove(444)
+x
+print(x) #None
+
+lista.append(234)
+print(lista.pop())
+234
+
+print não retorna nada ele só mostra na tela.
+o print é uma função, pq você chama ele direto. já método.
+
+len é uma função, ela retorna a quantidade de lista em uma lista, passando a lista como paramêtro.
+len(lista)
+0
+lista.append(10)
+len(lista)
+1
+lista.append([1,2,3,4])
+len(lista)
+2
+lista
+[10, [1, 2, 3, 4]
+len(lista[1])
+4
+lista[1]
+
+Operações avançadas em Listas - Função
+min -> Ele vai pegar o mínimo valor de lista e retornar.
+max -> Ele vai pegar o valor máximo da lista e retorna.
+sorted -> Ele vai ordenar a lista e retorna, ele vai copiar, para ser o contrário só colocar reserve = True.
+reserve -> ele vai colocar ao contrário.
+
+Função não mexe na lista, ele só vai copiar e retornar.
+Método ele mexe na lista e não retorna nada.
+
+Operação 
+lista.index( ) não retorna nada, ele retorna o valor no. Ele retorna um inteiro.
+sum(lista), ele vai somar todas as lista do número.
+ 
+
+

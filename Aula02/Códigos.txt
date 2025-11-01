@@ -1,0 +1,23 @@
+Códigos:
+print("Edivan Francisco")
+
+nome = "Edinaldo"
+sobrenome = 'Dilorenzo'
+idade = 25 
+altura = 1.74
+casado = True
+CPF = "123456789"
+print("Edinaldo é\n", 100)
+
+nome = "Ed"
+print(nome)
+
+x = 10
+y = 10.1
+y = x
+print(x)
+name = input("Digite seu nome: ")
+print(name)
+
+salari = float(input("Digite o salário: "))
+print("O salário mais 10 por cento é: ",salari *1.1)

@@ -1,0 +1,1 @@
+for func in lista

@@ -1,0 +1,85 @@
+Tuplas:
+ Você não pode alterar os valores delas.
+ Não podem ser alteradas.
+ ()
+
+Se você criar uma tulpa, depois você reatribuir e depois ele vai ser referido outro valor na memória.
+
+Tulpa ela ocupa menos espaço da na memória, a Lista ela tem bem mais, ela quando é for mudada, isso vai consumir bem mais memória e é mais trabalhoso.
+import sys
+print(sys.getsizeof(tuplinha))
+64
+print(sys.getsizeof(listinha))
+88
+88 / 64
+# 1.375
+
+
+No enumerate, ele retorna tuplas, o primeiro sendo um index e depois o valor. Ele vai retornar os dois valores.
+Uma tulpa pode ter uma lista dentro dela, ela pode ser mudado através dessa referência da listinha, ela não vai mudar a tulpa, apenas a própria listinha de dentro.
+tuplanho = (1, 2, 3, [1,3, 5, 8, 18], 8)
+tuplano.append[3](7)
+
+tupla = (345)
+print(type(tupla)) # int
+tupla = (345,) É uma tupla.
+
+lista = list(tuplanho)
+tupla = tuple(lista)
+
+tupla = tuple([i for i in range(10)])
+tupla
+(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+valor.lower() ele coloca em minúsculo .upper ele coloca em maisculo, . strip() ele vai tirar
+!!É importante que se não for mudar você use uma tulpa, se for mudar use lista.
+Tupla vazia é false, tupla não vazia é True.
+tupla = ()
+if tupla:
+	print("Tupla não vazia")
+else:
+	print("Tupla vazia")
+
+
+tupla = (7, 4, 3, 8, 4)
+print(tupla.count(4)) Conta ocorrências do valor 4 -> 2
+tupla.index(8) Retorna o índice do valor que você especificou 8 -> 3 Ele pega o primeiro.
+
+tupla = [0, 1, 2, 4, 5, 6, 7]
+Tupla + tupla dá uma tupla concatenada em uma nova só por último.
+x = 2 * tupla
+print(x) (0, 1, 2, 4, 5, 6, 7, 0, 1, 2, 4, 5, 6, 7)
+
+tupla = (1, 2, 5, 6, 7)
+tamanho_da_tupla = len(tupla)
+
+print(tamanho_da_tupla) #5
+
+da para fazer um slice em uma tupla, ele vai ser tupla, funcionam na mesma função que lista.
+
+tupla = tuple(range(3))
+tupla
+(0, 1, 2)
+n1, n2, n3 = tupla
+n1 recebe 0, n2 recebe 1 etc.
+Se tiver n4 vai dá erro.
+n1, n2, *resto = tulpa
+print(resto)
+[2]
+
+n1, *resto = tupla
+resto
+[1, 2]
+
+tupla = (0, 1, 2, 3, 4,  5, 6, 7, 8, 9)
+n1, *valor, n2 = tupla
+print(n1) # 0
+print(n2) # 9
+print(valor) # [1, 2, 3, 4, 5, 6, 7, 8]
+
+n1, n2, *meio, n3, n4 = tupla
+print(*tupla) Isso é como se tivesse um monte de elemento é o mesmo print(1, 2, 3, 4) 
+
+any(lista) se algum for True ele retorna True, ele seria or, algum ou qualquer
+all(lista) se tiver um False ele retorna False, ele seria o and. 
+

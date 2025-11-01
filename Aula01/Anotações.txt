@@ -1,0 +1,155 @@
+Aula 01
+IDE: integrated development environment ou Ambiente de Desenvolvimento (tradução)
+Resumo: programa que a gente usa para programar
+
+•Programa para print
+Programa poderia ser um nome qualquer e no final tem que ter ".py" e ele roda independente.
+
+Códigos: 
+"print" = é para imprimir
+Tem que ser com abre e fecha "" e ()
+EX: Print ("Ednaldo é")
+
+programa.py
+print("Olá, mundo!") 
+print (10)
+print (11)
+
+Print com número não precisa de ""
+
+!! \n é pra dá enter.
+
+O que são variáveis?
+Espaços em memória que são utilizados armazenar informações
+• Atribuição de valores à variáveis (=)
+= é uma atribuição
+
+programa.py
+x = 10
+x = 11
+y = 25
+
+Esse x vai ser uma área na memória.
+Ele vai resolver primeiro o valor direito(5 + 6), depois ele vai jogar pro outro lado e vai atribuir ao valor esquerda, então ele vai jogar o valor novo (y) nessa área. 
+
+Na memória ele vai criar uma área de memória no nome e depois colocar o número lá, já o número não iria criar.
+
+Quando você cria um valor com x = 10 e depois muda  x = 11 ele vai pegar o novo valor. 
+
+Como y não tem um valor, ele vai criado lá na memória. 
+
+##Variáveis
+Podem ser armazenadas, acessadas e alteradas.
+Todas as variáveis possuem:
+Tipo
+Nome
+Conteúdo
+
+###Tipos de Variáveis
+
+String(str)
+Conjunto de caracteres delimitados por aspas simples' ou aspas duplas". Ou tudo de aspas simples ou tudo de aspas duplas.
+Exemplo = "P", "Teste", "Python", "Testando Python"
+Quando você pega uma variável e coloca uma string, ela vai ser uma string.
+
+Inteiro (int)
+Números inteiro, não tem . e , isso é inteiro.
+Ex = 1, -2345, 25
+
+Real (float) [Ponto flutuante]
+É um tipo composto por caracteres numéricos (algarismo) decimais
+Ex: 1.72
+
+Boolean (bool)
+Assume apenas dois valores (True) ou (False) Tem que ser maiúsculo!
+Ex: (True) Ou (False)
+
+Em outras linguagens, não pode colocar a mesma variável com dois tipos, no caso quando chegar no última que chegar vai ser esse.
+Tipado, ela depende da atribuição, quando ela não depende que você atribuía tipo.
+
+## O tipo de variáveis 
+O tipo de variável em python é definido ao se atribuir um valor
+programa.py
+
+x = 10.3 (Float)
+y = 10 (Inteiro)
+nome = "Etevaldo" (String)
+Passou = True (Boolean)
+
+x = 10
+x = y
+Vai resolver lado direito e vai ir pro lado esquerdo
+
+Para descobrir qual o tipo de uma variável, podemos usar o comando type.
+Type recebe a variável e retorna qual o tipo da variável
+
+programa.py
+casado = "Sim"
+print(casado)
+print(type(casado))
+Ele vai imprimir str
+
+print (type(10))
+Ele vai imprimir int
+
+x = 13
+print(x + 10) Ele faz soma.
+
+Para somar direto += 
+
+Para converser de float para inteiro ele cortar as casas decimas
+altura = 1.84
+altura = int(altura)
+print(type(altura))
+
+Vamos aparecer 1 no código.
+
+Quando uma string SÓ DE NÚMEROS, sem . ou outro caractere, se transformar em int, ele mostra só os números do código.
+CPF = "12314467"
+CPF = int(CPF)
+print(CPF)
+Exibi 12314467
+
+peso = "-79.5"
+print(float(int(peso)))
+
+Dá ERRO, por causa do ponto, já que ele nã vai transforma o string em int se tiver ., então se você colocar:
+peso = "-79.5"
+print(int(float(peso)))
+parece -79
+
+peso = "-79"
+print(float(int(peso)))
+
+Agora sim, mostra -79
+
+casado = True
+print(str(casado))
+
+Boolean para string só mostra em string
+Se for converter de string para boolean e não for uma string vazia, vai dá true.
+Se for converter uma string com nada dá false.
+SE FOR ZERO dá Falso.
+
+valor = 0
+print(bool(valor))
+
+Número string para booleano dá True
+0 para bool dá False
+
+##Nomes de Variáveis
+Regras para nomes variáveis.
+• Não podem conter caracteres especiais, exceto o _, nem espaços.
+• Não podem começar com número 10_um
+• Não podem haver duas iguais
+ A letra maiúscula não empata com os já existentes, não use variável com maiúscula.
+
+É uma função pois tem ()
+
+input ("") leve vai ser colocado um string
+nome = ("Digite seu nome: ")
+
+e ele vai ser armazenado o valor na parte da variável.
+
+
+

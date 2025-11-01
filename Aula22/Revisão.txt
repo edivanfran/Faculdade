@@ -1,0 +1,54 @@
+Revisão:
+try -> bloco que o código é verificado.
+expect -> bloco no momento que vai dar erro vai para ele.
+
+
+
+Podem ser tratadas em um mesmo bloco de código.
+Isso significado que um mesmo bloco pode gerar mais de uma exceção e que podemos.
+
+
+expect(ValueError, ZeroDivisionError): -> Se acontecer algum desses erros caiem aqui.
+
+quando cair um erro que não foi tratado ele dá erro, o expect.
+
+context maninger = with
+
+Você força o erro com raise.
+
+Manipulação de arquivos:
+A manipulação de arquivos é uma parte essencial da programação, pois permite armazenar, recuperar e processar informações de maneira persistente.
+
+arquivo = open("nome_do_arquivo", "modo") "r" read
+conteudo = arquivo.read()  # se fosse w modo escrita, ele ia dá erro, porque ele não pode ler. Ele está no modo escrita.
+
+write(): No modo w sobrescrever o conteúdo do arquivo.
+Se o arquivo já existir, ele será sobrescrito.
+
+write(): No modo a adiciona conteúdo no arquivo existente. Ele vai appenda a última parte.
+
+.write() # Se for usado em um modo de leitura, dá erro. O a ele não vai sobrescrever, mas ele vai appendar e criar um novo.
+
+os:
+
+if not (os.path.exists("temp")):
+	os.makedirs("temporario", exist_ok=True) #Or exist_ok, já resolve não precisa do if.
+
+try:
+	os.rename("temporario", "temp_alterado") # Precisa tratar caso não exista.
+expect FileNotFoundErro:
+	print("Pasta não foi encontrado")
+
+shutil.copy("dados.json", "backup.json")
+
+
+
+
+  
+
+
+
+
+
+
+
